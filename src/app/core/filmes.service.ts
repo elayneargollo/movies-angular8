@@ -5,7 +5,7 @@ import { Filme } from '../shared/models/filme';
 import { ConfigPrams } from '../shared/models/config-prams';
 import { ConfigParamsService } from './config-params.service';
 
-const url = 'https://backend-movies.herokuapp.com/filmes';
+const url = 'https://backend-movies.herokuapp.com/filmes/';
 
 @Injectable({
   providedIn: 'root'
