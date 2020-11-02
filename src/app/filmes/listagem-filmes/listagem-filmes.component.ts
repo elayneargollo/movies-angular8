@@ -54,7 +54,8 @@ export class ListagemFilmesComponent implements OnInit {
   }
 
   abrir(id: number): void {
-    this.router.navigateByUrl('/filmes/' + id);
+    let url = "https://backend-movies.herokuapp.com/filmes";
+    this.router.navigateByUrl(url + id);
   }
 
   private listarFilmes(): void {
